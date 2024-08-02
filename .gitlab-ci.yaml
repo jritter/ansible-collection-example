@@ -1,0 +1,6 @@
+image: ghcr.io/ansible/community-ansible-dev-tools:latest
+
+ansible-lint:
+  stage: test
+  script:
+    - ansible-lint
