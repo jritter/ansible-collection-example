@@ -2,6 +2,7 @@ image: ghcr.io/ansible/community-ansible-dev-tools:latest
 
 variables:
   ANSIBLE_LINT_WRITE_TMP: /var/tmp/
+  HOME: /builds
 
 ansible-lint:
   stage: test
